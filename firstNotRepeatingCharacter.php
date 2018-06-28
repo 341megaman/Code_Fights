@@ -3,7 +3,7 @@ Given a string s, find and return the first
 instance of a non-repeating character in it.
 If there is no such character, return '_'.
 */
-<?php
+
 
 function firstNotRepeatingCharacter($s) {
   $length = strlen($s);
@@ -32,4 +32,3 @@ function firstNotRepeatingCharacter($s) {
   }
 }
 
-?>
