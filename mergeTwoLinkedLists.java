@@ -59,8 +59,6 @@ class mergeTwoLinkedLists
 			previous = next;
 		}
 		
-		
-		//next = headL2;
 		next = mergeTwoLinkedLists(headL1, headL2);
 		while(next != null)
 		{
